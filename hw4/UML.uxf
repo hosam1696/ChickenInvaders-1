@@ -1,0 +1,1042 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.2">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>816</x>
+      <y>888</y>
+      <w>136</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>chickens::AvianFluChicken
+--
+--
++AvianFluChicken(int i, int j): ctor
++visit(RedShot s): void
++visit(BlackShot s): void
++visit(YellowShot s): void
++visit(BlueShot s): void
+--
+
+group=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>800</x>
+      <y>432</y>
+      <w>152</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>chickens::BlueChicken
+--
+--
++BlueChicken(int i, int j): ctor
++visit(RedShot s): void
++visit(BlackShot s): void
++visit(YellowShot s): void
++visit(BlueShot s): void
+--
+
+group=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>760</x>
+      <y>280</y>
+      <w>264</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>/chickens::Chicken/
+--
+-_num: int
+#_i, _j: int
+#_label: JLabel
+--
++Chicken(int num, String imagePath, int i, int j): ctor
++getLabel(): JLabel
++getNum(): int
++getI(): int
++getJ(): int
++explode(): void
+--
+
+group=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>816</x>
+      <y>696</y>
+      <w>136</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>chickens::ColumnChicken
+--
+--
++ColumnChicken(int i, int j): ctor
++visit(RedShot s): void
++visit(BlackShot s): void
++visit(YellowShot s): void
++visit(BlueShot s): void
+--
+
+group=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>816</x>
+      <y>568</y>
+      <w>136</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>chickens::GreenChicken
+--
+--
++GreenChicken(int i, int j): ctor
++visit(RedShot s): void
++visit(BlackShot s): void
++visit(YellowShot s): void
++visit(BlueShot s): void
+--
+
+group=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>816</x>
+      <y>824</y>
+      <w>136</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>chickens::OChicken
+--
+--
++OChicken(int i, int j): ctor
++visit(RedShot s): void
++visit(BlackShot s): void
++visit(YellowShot s): void
++visit(BlueShot s): void
+--
+
+group=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>816</x>
+      <y>632</y>
+      <w>136</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>chickens::OrangeChicken
+--
+--
++OrangeChicken(int i, int j): ctor
++visit(RedShot s): void
++visit(BlackShot s): void
++visit(YellowShot s): void
++visit(BlueShot s): void
+--
+
+group=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>816</x>
+      <y>760</y>
+      <w>136</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>chickens::PlusChicken
+--
+--
++PlusChicken(int i, int j): ctor
++visit(RedShot s): void
++visit(BlackShot s): void
++visit(YellowShot s): void
++visit(BlueShot s): void
+--
+
+group=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>816</x>
+      <y>600</y>
+      <w>136</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>chickens::PurpleChicken
+--
+--
++PurpleChicken(int i, int j): ctor
++visit(RedShot s): void
++visit(BlackShot s): void
++visit(YellowShot s): void
++visit(BlueShot s): void
+--
+
+group=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>816</x>
+      <y>536</y>
+      <w>136</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>chickens::RedChicken
+--
+--
++RedChicken(int i, int j): ctor
++visit(RedShot s): void
++visit(BlackShot s): void
++visit(YellowShot s): void
++visit(BlueShot s): void
+--
+
+group=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>816</x>
+      <y>728</y>
+      <w>136</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>chickens::RowChicken
+--
+--
++RowChicken(int i, int j): ctor
++visit(RedShot s): void
++visit(BlackShot s): void
++visit(YellowShot s): void
++visit(BlueShot s): void
+--
+
+group=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>816</x>
+      <y>792</y>
+      <w>136</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>chickens::XChicken
+--
+--
++XChicken(int i, int j): ctor
++visit(RedShot s): void
++visit(BlackShot s): void
++visit(YellowShot s): void
++visit(BlueShot s): void
+--
+
+group=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>816</x>
+      <y>856</y>
+      <w>136</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>chickens::XORChicken
+--
+--
++XORChicken(int i, int j): ctor
++visit(RedShot s): void
++visit(BlackShot s): void
++visit(YellowShot s): void
++visit(BlueShot s): void
+--
+
+group=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>816</x>
+      <y>664</y>
+      <w>136</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>chickens::YellowChicken
+--
+--
++YellowChicken(int i, int j): ctor
++visit(RedShot s): void
++visit(BlackShot s): void
++visit(YellowShot s): void
++visit(BlueShot s): void
+--
+
+group=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>104</x>
+      <y>688</y>
+      <w>168</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>fileHandling::AbortException
+--
+--
++AbortException(): ctor
+--
+
+group=5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>104</x>
+      <y>640</y>
+      <w>168</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>fileHandling::GiveUpException
+--
+--
++GiveUpException(): ctor
+--
+
+group=5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>104</x>
+      <y>736</y>
+      <w>176</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>fileHandling::WriteReadFile
+--
+--
++saveScore(String toSave): void
++loadToString(): String
+--
+
+group=5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>104</x>
+      <y>800</y>
+      <w>176</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>/fileHandling::WriteToFileBase/
+--
+--
+#promptFile(): File
+#writeInner(FileWriter f): void
+#reportError(Exception e): void
+#reportGiveUp(Exception e): void
++writeToFile(): void
+--
+
+group=5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>824</x>
+      <y>40</y>
+      <w>376</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>logic::Collision
+--
+--
++jComponentlOverlap(JComponent Comp1, JComponent Comp2): boolean
+-CompPoints(JComponent comp): Point[]
+--
+
+group=3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1056</x>
+      <y>128</y>
+      <w>136</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+logic::Visited
+--
+--
+~shooting(Visitor v): void
+--
+
+group=3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>824</x>
+      <y>120</y>
+      <w>136</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+logic::Visitor
+--
+--
+~visit(RedShot s): void
+~visit(BlackShot s): void
+~visit(YellowShot s): void
+~visit(BlueShot s): void
+--
+
+group=3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>320</x>
+      <y>768</y>
+      <w>184</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>misc::SpaceShip
+--
+-_currShot: Shot
+-_shots: Shot[]
+-_label: JLabel
+--
++SpaceShip(): ctor
++getLabel(): JLabel
++getShot(): Shot
++setShotByNum(int shotNum): void
+--
+
+group=4</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>288</x>
+      <y>392</y>
+      <w>440</w>
+      <h>208</h>
+    </coordinates>
+    <panel_attributes>screens::Board
+--
+-_array: int[][]
+-_chickens: Chicken[][]
+--
++Board(int level): ctor
++removeChicken(int row, int col): void
++getChickenArray(): Chicken[][]
++isEmpty(): boolean
++removeChickensByColor(int color): void
+-getChickensByColor(int colorNum): LinkedList&lt;Chicken&gt;
++removeChickenBySymbol(char symbol, int i, int j): void
+-getChickensBySymbol(char symbol, int i, int j): LinkedList&lt;Chicken&gt;
+-getChickensByCircle(int i, int j): LinkedList&lt;Chicken&gt;
+-getChickensByDirection(int i, int j, int addToRows, int addToCols): LinkedList&lt;Chicken&gt;
+-randomize2Indexes(int size): int[]
++removeAllChickens(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>320</x>
+      <y>24</y>
+      <w>392</w>
+      <h>344</h>
+    </coordinates>
+    <panel_attributes>screens::Game
+--
+-_board: Board
+-_statusBar: JPanel
+-_spaceShip: SpaceShip
+-_totalScore: int
+-_levelShots: int
+-_shotTimer, _levelTimer, _spaceShipLeftTimer, _spaceShipRightTimer: Timer
+-_explosionTimer: Timer
+-_shotIcon, _timeText, _currShot, _shotsLabel, _level: JLabel
+-_runningTime, animation = 0: int
+-_targetChickens: LinkedList&lt;Chicken&gt;
+-_writerReader: WriteReadFile
+-_currLevel: int
+-_mainWindow: MainWindow
+--
++Game(int level, MainWindow mainWindow): ctor
++paintComponent(Graphics g): void
++startBGMusic(): void
++keyPressed(KeyEvent e): void
++keyReleased(KeyEvent e): void
++keyTyped(KeyEvent e): void
++actionPerformed(ActionEvent e): void
+-playSound(String string): void
+-levelChanger(): void
++startExplosion(): void
++addTargetChicken(Chicken target): void
++Refresh(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>104</x>
+      <y>176</y>
+      <w>208</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>screens::MainWindow
+--
+-_menu: Menu
+--
++MainWindow(): ctor
++main(String[] args): void
++actionPerformed(ActionEvent e): void
++Refresh(): void
++showMainMenu(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>104</x>
+      <y>24</y>
+      <w>208</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>screens::Menu
+--
+-_buttons: JButton[]
+-_levelRadios: JRadioButton[]
+--
++Menu(MainWindow mainWindow): ctor
++getButtons(): JButton[]
++getSelectedLevel(): int
++paintComponent(Graphics g): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1096</x>
+      <y>496</y>
+      <w>136</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>shots::BlackShot
+--
+--
++BlackShot(): ctor
++shooting(Visitor v): void
+--
+
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1096</x>
+      <y>432</y>
+      <w>136</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>shots::BlueShot
+--
+--
++BlueShot(): ctor
++shooting(Visitor v): void
+--
+
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1096</x>
+      <y>560</y>
+      <w>136</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>shots::RedShot
+--
+--
++RedShot(): ctor
++shooting(Visitor v): void
+--
+
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1064</x>
+      <y>280</y>
+      <w>200</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>/shots::Shot/
+--
+-_num: int
+-_label: JLabel
+--
++Shot(int num, String imagePath): ctor
++getLabel(): JLabel
++getNum(): int
++shooting(Visitor v): void
+--
+
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1096</x>
+      <y>624</y>
+      <w>136</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>shots::YellowShot
+--
+--
++YellowShot(): ctor
++shooting(Visitor v): void
+--
+
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>1056</x>
+      <y>256</y>
+      <w>216</w>
+      <h>432</h>
+    </coordinates>
+    <panel_attributes>shots
+--
+bg=gray
+group=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>752</x>
+      <y>256</y>
+      <w>280</w>
+      <h>664</h>
+    </coordinates>
+    <panel_attributes>chickens
+--
+bg=gray
+group=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>816</x>
+      <y>16</y>
+      <w>392</w>
+      <h>208</h>
+    </coordinates>
+    <panel_attributes>logic
+--
+bg=gray
+group=3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>880</x>
+      <y>208</y>
+      <w>24</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1152</x>
+      <y>176</y>
+      <w>24</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>312</x>
+      <y>744</y>
+      <w>200</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>misc
+--
+bg=gray
+group=4</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>96</x>
+      <y>616</y>
+      <w>192</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>fileHandling
+--
+bg=gray
+group=5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>96</x>
+      <y>0</y>
+      <w>648</w>
+      <h>608</h>
+    </coordinates>
+    <panel_attributes>screens
+--
+bg=gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>0</x>
+      <y>216</y>
+      <w>120</w>
+      <h>568</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+Uses </panel_attributes>
+    <additional_attributes>130.0;10.0;10.0;10.0;10.0;680.0;130.0;680.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>56</x>
+      <y>304</y>
+      <w>280</w>
+      <h>496</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+Uses </panel_attributes>
+    <additional_attributes>330.0;10.0;10.0;10.0;10.0;590.0;60.0;590.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>120</y>
+      <w>24</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+1</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>248</x>
+      <y>336</y>
+      <w>88</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+1</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0;10.0;170.0;50.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>704</x>
+      <y>56</y>
+      <w>136</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1
+uses &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;150.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>216</x>
+      <y>352</y>
+      <w>168</w>
+      <h>432</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+1</panel_attributes>
+    <additional_attributes>130.0;10.0;10.0;10.0;10.0;330.0;190.0;330.0;190.0;520.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>264</x>
+      <y>136</y>
+      <w>72</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+1</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>944</x>
+      <y>424</y>
+      <w>64</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;60.0;70.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>944</x>
+      <y>424</y>
+      <w>64</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;60.0;160.0;10.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>944</x>
+      <y>424</y>
+      <w>64</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;60.0;190.0;10.0;190.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>944</x>
+      <y>456</y>
+      <w>64</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;60.0;190.0;10.0;190.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>944</x>
+      <y>496</y>
+      <w>64</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;60.0;190.0;10.0;190.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>944</x>
+      <y>520</y>
+      <w>64</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;60.0;190.0;10.0;190.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>944</x>
+      <y>552</y>
+      <w>64</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;60.0;190.0;10.0;190.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>944</x>
+      <y>424</y>
+      <w>64</w>
+      <h>328</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;60.0;390.0;10.0;390.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>944</x>
+      <y>424</y>
+      <w>64</w>
+      <h>360</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;60.0;430.0;10.0;430.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>944</x>
+      <y>680</y>
+      <w>64</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;60.0;190.0;10.0;190.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>944</x>
+      <y>656</y>
+      <w>64</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;60.0;190.0;10.0;190.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>944</x>
+      <y>712</y>
+      <w>64</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;60.0;190.0;10.0;190.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>944</x>
+      <y>744</y>
+      <w>64</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;60.0;190.0;10.0;190.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1224</x>
+      <y>376</y>
+      <w>48</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>40.0;10.0;40.0;110.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1224</x>
+      <y>432</y>
+      <w>48</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>40.0;10.0;40.0;110.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1224</x>
+      <y>496</y>
+      <w>48</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>40.0;10.0;40.0;110.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1224</x>
+      <y>568</y>
+      <w>48</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>40.0;10.0;40.0;110.0;10.0;110.0</additional_attributes>
+  </element>
+</diagram>

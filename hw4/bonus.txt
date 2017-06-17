@@ -1,0 +1,25 @@
+//**************************//
+//			bonus.txt		//
+//**************************//
+	Author1: 
+		Name:Daniel Margalit
+		Id:204093983
+		
+	Author2: 
+		Name:Saar Scheinkman
+		Id:203853171
+//**************************//
+	
+1.	Adding Latest wins table? Yes
+
+2.	Adding new chickens game? Yes
+		for each chicken added fill in the following information:
+		
+			Id: 10
+			Levels appearances: [5,6]
+			Id: 11
+			Levels appearances: [5,6]
+			Id: 12
+			Levels appearances: [5]
+			Id: 13
+			Levels appearances: [6]
